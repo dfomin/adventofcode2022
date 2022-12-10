@@ -32,7 +32,6 @@ def score(row, column, lines, left, right, top, bottom) -> int:
             break
         i += 1
 
-    print(row, column, left_value, right_value, top_value, bottom_value)
     return left_value * right_value * top_value * bottom_value
 
 
